@@ -1,5 +1,15 @@
 {
   "appId": "com.ksyusha.carrots",
   "appName": "Ксюша и морковки",
-  "webDir": "www"
+  "webDir": "www",
+  "android": {
+    "fullscreen": true,
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "hidden": true,
+      "overlaysWebView": true
+    }
+  }
 }
